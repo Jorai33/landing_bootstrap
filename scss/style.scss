@@ -1,0 +1,15 @@
+@import "mobile";
+
+// Add a "Ghost" element of 60px height ( because navabar is fixed-top )
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+// Map Styling
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
